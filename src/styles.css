@@ -1,3 +1,38 @@
-h1 {
-    color: red;
-}
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #f8f8f8; /* Light gray background */
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .value {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em; /* Increased size for bolder numbers */
+    font-weight: 900;
+    color: #fff; /* White numbers */
+    background-color: #000; /* Black background */
+    padding: 20px 30px; /* Adjusted padding for taller cards */
+    border-radius: 8px; /* Slightly larger border-radius */
+    box-shadow: inset 0 2px 5px rgba(255, 255, 255, 0.2), 
+                0 6px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .label {
+    font-size: 1.2em; /* Slightly larger label text */
+    font-weight: 700; /* Extra bold label */
+    color: #555;
+    margin-top: 12px; /* Increased spacing between value and label */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
